@@ -1,0 +1,20 @@
+{
+  "name": "proj-builder",
+  "version": "1.0.0",
+  "description": "A project initialising CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Leo Cooper",
+  "license": "ISC",
+  "bin": {
+    "proj": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
